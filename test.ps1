@@ -2,14 +2,14 @@ Write-Host "Run html"
 
 $Path = "C:\Users\Ekrem\Desktop\yuklenecekler"
 $Divider = "\"
-$CommitMsg = "İlk Commit"
+$CommitMsg = "2nd Commit"
 
 git config --global user.email "ekrem@cloudpeer.com"
 git config --global user.name "eysteren"
 
 Write-Host $Path $Divider
 
-git add .
+git add $Path
 git commit -m $CommitMsg
 git push
 
