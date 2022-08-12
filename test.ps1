@@ -1,13 +1,13 @@
 Write-Host "Run html"
 
-$Path = "C:\Users\Ekrem\Desktop\yuklenecekler"
+$Path = "C:\Users\Ekrem\Desktop\powershell-ornek\shell-test\yuklenecekler"
 $Divider = "\"
-$CommitMsg = "3nd Test Commit"
+$CommitMsg = "4nd Test Commit"
 
 git config --global user.email "ekrem@cloudpeer.com"
 git config --global user.name "eysteren"
 
-Write-Host $Path $Divider
+Write-Host $Path$Divider
 
 git add $Path
 git commit -m $CommitMsg
